@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# Database files
+*.db
+*.db-shm
+*.db-wal
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env
+.env.local

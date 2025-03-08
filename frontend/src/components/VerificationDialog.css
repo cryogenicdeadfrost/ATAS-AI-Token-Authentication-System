@@ -1,0 +1,80 @@
+.verification-dialog {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.verification-dialog h3 {
+  margin-top: 0;
+  color: #333;
+  font-size: 1.2rem;
+}
+
+.dialog-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.api-input {
+  flex: 1;
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.verify-button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.verify-button:hover {
+  background-color: #45a049;
+}
+
+.verify-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.verification-result {
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.verification-result h2 {
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+
+.success {
+  background-color: rgba(76, 175, 80, 0.1);
+  border: 1px solid #4CAF50;
+}
+
+.error {
+  background-color: rgba(244, 67, 54, 0.1);
+  border: 1px solid #F44336;
+}
+
+.token-details {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 10px 15px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.token-details p {
+  margin: 5px 0;
+  font-size: 14px;
+}
