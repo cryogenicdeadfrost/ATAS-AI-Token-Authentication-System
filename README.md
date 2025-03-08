@@ -1,5 +1,5 @@
 # ATAS (AI Adaptive Token Authentication System)
-
+Next Gen Authentication
 ATAS is an AI-powered authentication system that dynamically adjusts token expiration to prevent **unauthorized API access, data scraping, compromised key usage, and illegal AI wrappers**. Using **FastAPI, JWT, Isolation Forest, and IPQS**, ATAS enhances API security through real-time anomaly detection and risk-based token validation.
 
 ## 🚀 Features
