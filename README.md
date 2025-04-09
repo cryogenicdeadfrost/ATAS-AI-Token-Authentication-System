@@ -8,7 +8,7 @@ ATAS is an AI-powered authentication system that dynamically adjusts token expir
 - **Anomaly Detection** – Uses **Isolation Forest** to detect unusual API activity.
 - **IP & Proxy Check** – Integrates **IPQS** to flag VPNs, proxies, and suspicious IPs.
 - **Context-Based Filtering** – Evaluates request metadata (geolocation, frequency, and behavior patterns).
-- **Unauthorized AI Wrapper Prevention** – Blocks third-party applications repackaging API services.
+- **Unauthorized AI Wrapper Prevention** – Blocks  third-party applications repackaging API services.
 - **Compromised API Key Detection** – Automatically invalidates suspicious keys.
 
 ## 🛠️ Tech Stack
