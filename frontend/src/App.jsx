@@ -43,8 +43,7 @@ const App = () => {
     localStorage.removeItem("apiKeys");
     localStorage.removeItem("generatedTokens");
     
-    fetchIP();
-    
+    fetchIP(); 
     // Start polling for revoked IPs
     checkRevokedIPs();
     const interval = setInterval(checkRevokedIPs, 10000); // Check every 10 seconds
