@@ -39,6 +39,7 @@ ip_request_tracking = {}
 # Database Functions
 #----------------------------
 
+
 def get_db():
     """
     Get a database connection. The connection is unique for each request and will
