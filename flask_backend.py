@@ -18,7 +18,7 @@ app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "*"}})
 
 # Replace with your actual IPQS API key
-IPQS_API_KEY = "3ArtTqAVJMTuGsxug552RBtU8rzrRmdU"
+IPQS_API_KEY = "your_api"
 
 # JWT Configuration
 # Change this to a strong secret key
